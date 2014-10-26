@@ -26,10 +26,11 @@ class ViewController: UIViewController {
     }
 
     @IBAction func startcounter(sender: AnyObject) {
+        counter=60;
         timer = NSTimer.scheduledTimerWithTimeInterval(1, target:self, selector: Selector("update"), userInfo:nil, repeats:true)
     }
 func update() {
-    labelCounter.text = String(counter++) 
+    labelCounter.text = String(counter--)
     }
 
     @IBAction func stopCounterPressed(sender: AnyObject) {
