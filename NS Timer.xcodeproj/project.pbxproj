@@ -13,6 +13,7 @@
 		B404D96B19FCF5D900988BC4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B404D96A19FCF5D900988BC4 /* Images.xcassets */; };
 		B404D96E19FCF5D900988BC4 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B404D96C19FCF5D900988BC4 /* LaunchScreen.xib */; };
 		B404D97A19FCF5D900988BC4 /* NS_TimerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B404D97919FCF5D900988BC4 /* NS_TimerTests.swift */; };
+		B404D98419FD140500988BC4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B404D98319FD140500988BC4 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		B404D97319FCF5D900988BC4 /* NS TimerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "NS TimerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B404D97819FCF5D900988BC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B404D97919FCF5D900988BC4 /* NS_TimerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NS_TimerTests.swift; sourceTree = "<group>"; };
+		B404D98319FD140500988BC4 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = ../Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 		B404D95519FCF5D900988BC4 = {
 			isa = PBXGroup;
 			children = (
+				B404D98319FD140500988BC4 /* Main.storyboard */,
 				B404D96019FCF5D900988BC4 /* NS Timer */,
 				B404D97619FCF5D900988BC4 /* NS TimerTests */,
 				B404D95F19FCF5D900988BC4 /* Products */,
@@ -195,6 +198,7 @@
 				B404D96919FCF5D900988BC4 /* Main.storyboard in Resources */,
 				B404D96E19FCF5D900988BC4 /* LaunchScreen.xib in Resources */,
 				B404D96B19FCF5D900988BC4 /* Images.xcassets in Resources */,
+				B404D98419FD140500988BC4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
